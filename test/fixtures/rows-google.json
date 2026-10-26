@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Senior Data Engineer",
+    "company_name": "Northwind Analytics",
+    "location": "Berlin, Germany",
+    "via": "Greenhouse",
+    "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+engineer&htidocid=abc#fpstate=tldetail&htidocid=abc",
+    "apply_options": [
+      { "title": "LinkedIn", "link": "https://www.linkedin.com/jobs/view/4286961888" },
+      { "title": "Greenhouse", "link": "https://boards.greenhouse.io/northwind/jobs/7001" }
+    ],
+    "detected_extensions": { "posted_at": "5 days ago", "schedule_type": "Full-time" },
+    "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgRGF0YSBFbmdpbmVlciJ9",
+    "description": "Build and run the batch and streaming pipelines."
+  },
+  {
+    "title": "Data Engineer",
+    "company_name": "Contoso Mobility",
+    "location": "Berlin, Germany",
+    "via": "LinkedIn",
+    "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+engineer&htidocid=def#fpstate=tldetail&htidocid=def",
+    "apply_options": [
+      { "title": "LinkedIn", "link": "https://de.linkedin.com/jobs/view/data-engineer-at-contoso-mobility-4286961999?trk=public_jobs" }
+    ],
+    "detected_extensions": { "posted_at": "30+ days ago" }
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company_name": "Margie's Travel",
+    "location": "Berlin, Germany",
+    "share_link": "https://www.google.com/search?ibp=htl;jobs&q=data+engineer&htidocid=ghi#fpstate=tldetail&htidocid=ghi",
+    "apply_options": [],
+    "detected_extensions": {}
+  },
+  {
+    "error": true,
+    "error_message": "Search failed for this query.",
+    "error_type": "RuntimeError",
+    "query": "data engineer",
+    "location": "Berlin, Germany"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "result_type": "job",
+    "id": "4353862",
+    "title": "Founding Data Engineer",
+    "url": "https://wellfound.com/jobs/4353862-founding-data-engineer",
+    "salaryMin": 90000,
+    "salaryMax": 120000,
+    "salaryCurrency": "EUR",
+    "jobType": "full-time",
+    "remote": false,
+    "locationNames": ["Berlin"],
+    "postedAt": "2026-10-21T12:00:00+00:00",
+    "company": { "name": "Blue Yonder Labs", "slug": "blue-yonder-labs", "stage": "early_stage" }
+  },
+  {
+    "result_type": "job",
+    "id": "4353900",
+    "title": "Data Engineer",
+    "url": "https://wellfound.com/jobs/4353900-data-engineer",
+    "remote": true,
+    "locationNames": [],
+    "postedAt": "not a date",
+    "company": { "name": "Adventure Works" }
+  },
+  {
+    "result_type": "error",
+    "error_type": "NoValidTarget",
+    "error_message": "No role or location could be mapped to a Wellfound search.",
+    "fetched_at": "2026-10-25T10:00:00.000Z"
+  }
+]

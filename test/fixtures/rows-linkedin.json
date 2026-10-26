@@ -1,0 +1,45 @@
+[
+  {
+    "result_type": "job",
+    "jobId": "4286961888",
+    "jobUrl": "https://www.linkedin.com/jobs/view/4286961888",
+    "title": "Senior Data Engineer",
+    "companyName": "Northwind Analytics",
+    "companyUrl": "https://www.linkedin.com/company/northwind-analytics",
+    "location": "Berlin, Germany",
+    "employmentType": "Full-time",
+    "salary": "",
+    "postedDate": "2026-10-20T00:00:00.000Z",
+    "applyUrl": "https://boards.greenhouse.io/northwind/jobs/7001",
+    "applyType": "external",
+    "description": "Build and run the batch and streaming pipelines behind our analytics product.",
+    "summary": "Senior Data Engineer, at Northwind Analytics, Berlin, Germany, Full-time"
+  },
+  {
+    "result_type": "job",
+    "jobId": "4286961999",
+    "jobUrl": "https://www.linkedin.com/jobs/view/4286961999",
+    "title": "Data Engineer",
+    "companyName": "Contoso Mobility",
+    "location": "Berlin, Germany",
+    "postedDate": "",
+    "postedAgo": "3 days ago",
+    "applyUrl": "https://www.linkedin.com/jobs/view/4286961999/apply",
+    "applyType": "linkedin"
+  },
+  {
+    "result_type": "error",
+    "error_type": "CollectionError",
+    "error_message": "One search page could not be read and was skipped.",
+    "sourceUrl": "data engineer",
+    "fetched_at": "2026-10-25T10:00:00.000Z"
+  },
+  {
+    "result_type": "job",
+    "jobId": "4286962000",
+    "jobUrl": "http://www.linkedin.com/jobs/view/4286962000",
+    "title": "Analytics Engineer",
+    "companyName": "Fabrikam",
+    "location": "Berlin, Germany"
+  }
+]

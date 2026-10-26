@@ -1,0 +1,59 @@
+[
+  {
+    "result_type": "job",
+    "jobId": "a1b2c3d4e5f60718",
+    "jobTitle": "Data Engineer (Python, Spark)",
+    "companyName": "Tailspin Freight",
+    "location": "Berlin",
+    "jobUrl": "https://de.indeed.com/viewjob?jk=a1b2c3d4e5f60718",
+    "applyUrl": "https://jobs.lever.co/tailspin/0f7c2b1e",
+    "datePosted": "2026-10-23T08:00:00.000Z",
+    "salaryMin": 70000,
+    "salaryMax": 85000,
+    "salaryPeriod": "YEARLY",
+    "salaryCurrency": "EUR",
+    "salaryIsEstimated": false,
+    "descriptionText": "You will own our ingestion layer."
+  },
+  {
+    "result_type": "job",
+    "jobId": "0a0b0c0d0e0f1011",
+    "jobTitle": "Junior Data Engineer",
+    "companyName": "Wide World Importers",
+    "location": "Berlin",
+    "jobUrl": "https://de.indeed.com/viewjob?jk=0a0b0c0d0e0f1011",
+    "applyUrl": "https://de.indeed.com/applystart?jk=0a0b0c0d0e0f1011",
+    "datePostedText": "Just posted",
+    "salaryMin": 4000,
+    "salaryMax": 4500,
+    "salaryPeriod": "MONTHLY",
+    "salaryIsEstimated": false
+  },
+  {
+    "result_type": "job",
+    "jobId": "ffeeddccbbaa9988",
+    "jobTitle": "Lead Data Engineer",
+    "companyName": "Litware",
+    "location": "Berlin",
+    "jobUrl": "https://de.indeed.com/viewjob?jk=ffeeddccbbaa9988",
+    "isExpired": true
+  },
+  {
+    "result_type": "job",
+    "jobId": "1234abcd5678ef90",
+    "jobTitle": "Data Platform Engineer",
+    "companyName": "Proseware",
+    "jobLocation": "Alexanderplatz 1, 10178 Berlin",
+    "jobUrl": "https://de.indeed.com/viewjob?jk=1234abcd5678ef90",
+    "salaryMin": 60000,
+    "salaryMax": 80000,
+    "salaryPeriod": "YEARLY",
+    "salaryIsEstimated": true
+  },
+  {
+    "free_tier_notice": true,
+    "notice": "free_tier_limit_reached",
+    "message": "Free monthly allowance reached for this Actor. This run returned 4 result(s) before stopping.",
+    "how_to_continue": "Upgrade to a paid Apify account (never limited), or wait for the monthly reset."
+  }
+]

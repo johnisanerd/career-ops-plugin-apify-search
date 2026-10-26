@@ -1,0 +1,101 @@
+{
+  "_comment": "Actor objects in the shape of GET /v2/acts/{actorId} (data). Event names and list prices copied from each Actor's .actor/actor.json on 2026-10-25; the live API response is the source of truth.",
+  "johnvc~linkedin-jobs-api": {
+    "id": "8gL3E4qLSkxxDyeDl",
+    "username": "johnvc",
+    "name": "linkedin-jobs-api",
+    "defaultRunOptions": { "build": "latest", "timeoutSecs": 3600, "memoryMbytes": 128 },
+    "pricingInfos": [
+      {
+        "pricingModel": "PAY_PER_EVENT",
+        "createdAt": "2026-06-01T00:00:00.000Z",
+        "startedAt": "2026-06-01T00:00:00.000Z",
+        "apifyMarginPercentage": 0.2,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "job-scraped": { "eventTitle": "Job scraped", "eventDescription": "Fee per job returned.", "eventPriceUsd": 0.00001 }
+          }
+        }
+      }
+    ]
+  },
+  "johnvc~indeed-jobs-api": {
+    "username": "johnvc",
+    "name": "indeed-jobs-api",
+    "defaultRunOptions": { "build": "latest", "timeoutSecs": 3600, "memoryMbytes": 256 },
+    "pricingInfos": [
+      {
+        "pricingModel": "PAY_PER_EVENT",
+        "startedAt": "2026-08-18T00:00:00.000Z",
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "job-scraped": {
+              "eventTitle": "Job scraped",
+              "eventPriceUsd": 0.0038,
+              "eventTieredPricingUsd": {
+                "FREE": { "tieredEventPriceUsd": 0.004 },
+                "BRONZE": { "tieredEventPriceUsd": 0.0038 },
+                "SILVER": { "tieredEventPriceUsd": 0.00361 },
+                "GOLD": { "tieredEventPriceUsd": 0.00343 }
+              }
+            },
+            "company-details-added": {
+              "eventTitle": "Company details added",
+              "eventPriceUsd": 0.0057,
+              "eventTieredPricingUsd": {
+                "FREE": { "tieredEventPriceUsd": 0.006 },
+                "BRONZE": { "tieredEventPriceUsd": 0.0057 }
+              }
+            }
+          }
+        }
+      },
+      {
+        "pricingModel": "PAY_PER_EVENT",
+        "startedAt": "2099-01-01T00:00:00.000Z",
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "job-scraped": { "eventTitle": "Job scraped", "eventPriceUsd": 0.5 }
+          }
+        }
+      }
+    ]
+  },
+  "johnvc~wellfound-jobs-api": {
+    "username": "johnvc",
+    "name": "wellfound-jobs-api",
+    "defaultRunOptions": { "memoryMbytes": 128 },
+    "pricingInfos": [
+      {
+        "pricingModel": "PAY_PER_EVENT",
+        "startedAt": "2026-08-01T00:00:00.000Z",
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "job-listing": { "eventTitle": "Job listing", "eventTieredPricingUsd": { "FREE": { "tieredEventPriceUsd": 0.001 }, "BRONZE": { "tieredEventPriceUsd": 0.0008 } } },
+            "job-description": { "eventTitle": "Job description", "eventTieredPricingUsd": { "FREE": { "tieredEventPriceUsd": 0.0006 }, "BRONZE": { "tieredEventPriceUsd": 0.0005 } } },
+            "job-detail": { "eventTitle": "Job detail", "eventTieredPricingUsd": { "FREE": { "tieredEventPriceUsd": 0.0036 }, "BRONZE": { "tieredEventPriceUsd": 0.003 } } }
+          }
+        }
+      }
+    ]
+  },
+  "johnvc~Google-Jobs-Scraper": {
+    "username": "johnvc",
+    "name": "Google-Jobs-Scraper",
+    "defaultRunOptions": { "memoryMbytes": 128 },
+    "pricingInfos": [
+      {
+        "pricingModel": "PAY_PER_EVENT",
+        "startedAt": "2026-05-01T00:00:00.000Z",
+        "minimalMaxTotalChargeUsd": 0.5,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": { "eventTitle": "Actor start", "eventPriceUsd": 0.00001, "eventTieredPricingUsd": { "FREE": { "tieredEventPriceUsd": 0.00005 } } },
+            "apify-default-dataset-item": { "eventTitle": "Dataset item", "eventPriceUsd": 0.00001 },
+            "page_processed": { "eventTitle": "Page processed", "eventPriceUsd": 0.045, "eventTieredPricingUsd": { "FREE": { "tieredEventPriceUsd": 0.09 }, "BRONZE": { "tieredEventPriceUsd": 0.045 } } }
+          }
+        }
+      }
+    ]
+  }
+}
